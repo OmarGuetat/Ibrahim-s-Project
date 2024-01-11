@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    text-align: center;
+}
+.second-img{
+    object-fit: fill;
+    width: 319px;
+    height: auto;
+}
+.first-img{
+    object-fit: contain;
+    width: 300px;
+    height: fit-content;
+}
+#special{
+    color: white;
+}
+body {
+    background-color: #c5a900;
+}
+a {
+    text-decoration: none; /* Remove underline by default */
+    color: #3498db; /* Set the default text color */
+    transition: color 0.3s ease; /* Add smooth transition effect for color change */
+
+    /* Optional: Add additional styles like font-size, font-weight, etc. */
+}
+
+a:hover {
+    color: #2980b9; /* Change text color on hover */
+}
+
+/* Optional: Style visited links */
+a:visited {
+    color: #8e44ad;
+}
+
+/* Optional: Style active links (when clicked) */
+a:active {
+    color: #e74c3c;
+}
